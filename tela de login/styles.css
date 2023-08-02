@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+body{
+margin:0;
+font-family: Krona One;
+font-size: 10px;
+
+}
+
+.primeiro-login{
+width: 100vw;
+height: 100vh;
+background:#D3D3D3;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.segundo-login{
+width: 50vw;
+height: 100vh;
+background:#D3D3D3;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.segundo-login > h1{
+font-size: 2vw;
+color:#000000;
+flex-direction: column;
+font-size: 25px;
+}
+
+.imagem{
+    width: 30vw;
+}
+
+.terceiro-login{
+width: 50vw;
+height: 100vh;
+background:#D3D3D3;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: center;
+
+}
+
+.quarto-login{
+width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: center;
+flex-direction: column;
+padding: 30px 35px;
+background: #999393;
+border-radius: 40px;
+box-shadow: 0px 10px 40px #7c7474;
+}
+
+
+.quarto-login > h1{
+color:#000000;
+font-weight: 800;
+margin: 0;
+font-size: 25px;
+
+}
+
+.texto{
+padding: 16px 0px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+}
+
+.texto > input{
+width: 100%;
+border: none;
+border-radius: 20px;
+padding: 8%;
+background:rgb(226, 225, 225);
+font-size: 14px;
+outline: none;
+}
+
+.texto > label{
+color:#000000;
+margin: 4px;    
+font-weight: 800;
+font-size: 12px;
+
+}
+
+.botao{
+width: 100%;
+padding: 9px 0px;
+margin: 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+text-transform: uppercase;
+font-weight: 800;
+letter-spacing: 2px;
+color: #000000;
+background: rgb(226, 225, 225);
+box-shadow: 0px 10px 15px -12px rgb(226, 225, 225);
+cursor: pointer;
+}
